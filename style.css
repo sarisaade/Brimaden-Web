@@ -11,9 +11,7 @@ background:#f7f4ef;
 color:#111;
 overflow-x:hidden;
 }
-section{
-padding:100px 8%;
-}
+
 
 header{
 
@@ -94,22 +92,31 @@ color:#111;
 
 
 .hero{
-min-height:100vh;
+
 display:flex;
-flex-direction:column;
+
 align-items:center;
-text-align:center;
+
 justify-content:space-between;
-gap:10px;
-padding:0 8%;
+
+gap:80px;
+
+padding:150px 8% 40px;
+
 }
 
 
 .hero-text{
 
 flex:1;
-margin-top:50px;
-max-width:600px;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+text-align:center;
 
 }
 .hero-logo-container{
@@ -131,13 +138,14 @@ margin:0 auto 15px;
 
 .hero-note{
 
-margin-top:35px;
+margin-top:20px;
 
-line-height:2;
+line-height:1.7;
 
 color:#777;
 
-font-size:.95rem;
+font-size:.9rem;
+
 
 }
 
@@ -159,9 +167,9 @@ h1{
 
 font-family:'Playfair Display';
 
-h1{
+
 font-size:clamp(3.5rem,8vw,6.5rem);
-}
+
 
 line-height:1.05;
 
